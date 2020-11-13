@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Public Domain Works Archive</title>
+<style type="text/css">
+h1,h2,h3,h4,h5,h6 {
+	border-bottom: 1px solid black;
+}
+
+#listing td {
+	padding: 1ex;
+}
+#listing td:nth-child(1), #listing td:nth-child(2), #listing td:nth-child(3), #listing td:nth-child(4) {
+	white-space:nowrap;
+}
+#listing td:nth-child(4) ul {
+	padding: 0;
+	list-style: none;
+}
+
+body > * {
+	width: 80ex;
+	max-width: 90%;
+	margin: 1em auto;
+}
+body > .wide {
+	width: 95%;
+	max-width: 95%;
+}
+
+#footer {
+	font-size: 0.8em;
+	margin-top: 4em;
+	text-align: center;
+	text-transform: lowercase;
+}
+</style>
+	</head>
+	<body>
+		<h1 id="title">Public Domain Works Archive</h1>
+		<p>A (very incomplete) listing of dedications to the public domain from across the Internet.</p>
+
+		<h2>What's Included</h2>
+
+		<p>The primary criterion is, of course, that a work has been
+		dedicated to the public domain. This intentionally excludes any
+		works that were at some point copyrighted and have since aged
+		into the public domain (in some jurisdictions), or works that
+		are public domain for statuatory reasons. Of course, it is
+		questionable in what, if any, jurisdictions one can sucessfully
+		place a work in the public domain, and what means would
+		sucessfully do so. The standard here is making an explicit
+		effort, such as using <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>
+		or simply marking a work <code>Public Domain</code>.</p>
+
+		<p>The secondary criteria is whether a work is complete. For
+		software this is a very subjective measure, but the general
+		guideline is that a beta-quality project is sufficiently
+		complete to include.</p>
+
+		<h2>Software</h2>
+		<table id="listing" class="wide">
+			<tr>
+				<th>Language</th>
+				<th>Category</th>
+				<th>Software</th>
+				<th>Links</th>
+				<th>Description</th>
+			</tr>
+
+			<tr>
+				<td>Haskell</td>
+				<td>Database</td>
+				<td>Acid-State</td>
+				<td><ul>
+						<li><a href="https://hackage.haskell.org/package/acid-state">hackage</a></li>
+						<li><a href="acid-state/">website (archived)</a></li>
+						<li><a href="https://github.com/acid-state/acid-state">github</a></li>
+				</ul></td>
+				<td>Unplug your machine and restart and have your app recover to exactly where it left off. Acid-State spares you the need to deal with all the marshalling, consistency, and configuration headache that you would have if you used an external DBMS for this purpose.</td>
+			</tr>
+
+			<tr>
+				<td>Haskell</td>
+				<td>Serialization</td>
+				<td>safecopy</td>
+				<td><ul>
+						<li><a href="https://hackage.haskell.org/package/safecopy">hackage</a></li>
+						<li><a href="acid-state/safecopy/">website (archived)</a></li>
+						<li><a href="https://github.com/acid-state/safecopy">github</a></li>
+				</ul></td>
+				<td>SafeCopy extends the parsing and serialization capabilities of Data.Serialize to include nested version control. Nested version control means that you can change the definition and binary format of a type nested deep within other types without problems.</td>
+			</tr>
+
+		</table>
+
+		<h2>Dedications</h2>
+		<p>Ways to free your creative work.</p>
+		<ul>
+			<li><a href="https://unlicense.org">The Unlicense</a> for software.</li>
+			<li><a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero</a> for other creative works.</li>
+			<li><a href="http://sam.zoy.org/wtfpl/">Do What The Fuck You Want Public License</a> for the shock factor.</li>
+		</ul>
+
+		<h2>Further Work</h2>
+		<ul>
+			<li>Add more types of works.</li>
+			<li>Software - add entries.</li>
+			<li>Software - archive repositories.</li>
+			<li>Automate page generation.</li>
+			<li>Table searching and sorting.</li>
+		</ul>
+			
+
+		<div id="footer">
+			<a href="https://creativecommons.org/publicdomain/zero/1.0/">No rights reserved</a>
+			by
+			<a href="https://adpt.dev/">Adaptable Research</a>
+		</div>
+
+	</body>
+</html>
